@@ -5,18 +5,18 @@ It also maintains a retention policy for backups on a Daily, Weekly and Monthly 
 #### Reference Article
 Link Here
 
-#### 3. Logged in as root:
+#### Logged in as root:
 ```
 cd ~/
 mkdir fms-ssl
 cd fms-ssl/
 ```
-#### 4. Download & make executable
+#### Download & make executable
 ```
 wget https://raw.githubusercontent.com/mhtawfiq/filemaker-server-rclone/main/fms-backup.sh
 chmod +x fms-backup.sh
 ``` 
-##### 5. Edit content of scripts
+##### Edit content of scripts
 ```
 nano fms-backup.sh
 ```
