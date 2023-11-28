@@ -19,10 +19,10 @@ rmonthly=36
 
 # Day of the Week for Weekly Backups
 # Monday (1) to Sunday (7)
-dweekly=2
+dweekly=1
 
 # Day of the Month for Monthly Backups
-dmonthly=28
+dmonthly=1
 
 
 ###
