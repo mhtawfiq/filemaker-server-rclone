@@ -20,7 +20,7 @@ chmod +x fms-backup.sh
 ```
 nano fms-backup.sh
 ```
-Set bacups folder, rclone remote, retention policy, weekly backup day and monthly backup day
+Set bacups folder, rclone remote, retention policy, weekly backup day and monthly backup day:
 ```
 # FileMaker Server Backups Folder
 fmsbackupsf="/opt/FileMaker/FileMaker Server/Data/Backups"
