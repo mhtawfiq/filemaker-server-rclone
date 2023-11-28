@@ -8,8 +8,8 @@ Link Here
 ### Logged in as root:
 ```
 cd ~/
-mkdir fms-ssl
-cd fms-ssl/
+mkdir fms-rclone
+cd fms-rclone/
 ```
 ### Download & make executable
 ```
