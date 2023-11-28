@@ -1,7 +1,7 @@
 #!/bin/bash
 # FileMaker Server Off-site Backup using rclone
 # By Mohamed H. Tawfiq - mhtawfiq@gmail.com
-# 20230330 - Initial Release
+# 20231128 - Initial Release
 
 # FileMaker Server Backups Folder
 fmsbackupsf="/opt/FileMaker/FileMaker Server/Data/Backups"
