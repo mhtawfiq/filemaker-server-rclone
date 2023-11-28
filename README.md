@@ -20,13 +20,16 @@ chmod +x fms-backup.sh
 ```
 nano fms-backup.sh
 ```
-Set bacups folder, rclone remote, retention policy, weekly backup day and monthly backup day:
+Set FileMaker Server backups folder, rclone remote, s3 bucket, retention policy, weekly backup day and monthly backup day:
 ```
 # FileMaker Server Backups Folder
 fmsbackupsf="/opt/FileMaker/FileMaker Server/Data/Backups"
 
 # rclone Remote
 rcr="fms-backup"
+
+# S3 Bucket Name
+s3="fms-backup1"
 
 # Retention Policy
 rdaily=90
@@ -35,7 +38,7 @@ rmonthly=36
 
 # Day of the Week for Weekly Backups
 # Monday (1) to Sunday (7)
-dweekly=7
+dweekly=1
 
 # Day of the Month for Monthly Backups
 dmonthly=1
