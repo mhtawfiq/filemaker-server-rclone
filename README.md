@@ -3,7 +3,7 @@ This bash script takes the latest daily FileMaker Server default Auto-Backup and
 It also maintains a retention policy for backups on a Daily, Weekly and Monthly basis.
 
 ### Reference Article
-https://mhtawfiq.github.io/filemaker-server-off-site-backups-with-rclone/
+https://mhtawfiq.github.io/filemaker-server-off-site-backup-and-retention-policy-with-rclone
 
 ### Logged in as root:
 ```
