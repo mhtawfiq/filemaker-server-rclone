@@ -14,7 +14,7 @@ cd fms-rclone/
 ### Download & make executable
 ```
 wget https://raw.githubusercontent.com/mhtawfiq/filemaker-server-rclone/main/fms-rclone.sh
-chmod +x fms-backup.sh
+chmod +x fms-rclone.sh
 ``` 
 ### Edit content of scripts
 ```
