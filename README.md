@@ -18,7 +18,7 @@ chmod +x fms-rclone.sh
 ``` 
 ### Edit content of scripts
 ```
-nano fms-backup.sh
+nano fms-rclone.sh
 ```
 Set FileMaker Server backups folder, rclone remote, s3 bucket, retention policy, weekly backup day and monthly backup day:
 ```
